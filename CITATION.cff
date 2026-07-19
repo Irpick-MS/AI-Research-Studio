@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: AI Research Studio
+message: "If you use this repository, please cite it."
+authors:
+  - family-names: MS
+    given-names: Irpick
+repository-code: https://github.com/Irpick-MS/AI-Research-Studio
+license: MIT
+version: 1.0
+date-released: 2026-07-19
+abstract: >
+  Repository containing Monte Carlo validation code,
+  datasets and documentation for the exploratory
+  HRSIC case study.
