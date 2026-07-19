@@ -1,0 +1,61 @@
+==============================================================================
+RHSIC MONTE CARLO V1.0 - TEST PERMUTATION
+==============================================================================
+
+Data esecuzione: 2026-07-01 14:41:34
+File zeri: zeros_50000.txt
+Numero zeri caricati: 1985
+Limite superiore zeri: 2500
+Sistemi analizzati: 14
+Test: permutation
+Iterazioni: 100000
+Soglia match: 0.2000%
+Seed: 42
+CSV dati Monte Carlo: monte_carlo_permutation_100000.csv
+Tempo esecuzione: 11.45 s
+
+IPOTESI NULLA
+Le frequenze osservate vengono permutate casualmente tra le masse reali.
+
+FORMULA
+Phi = f * M / 14
+Delta = |Phi - t_n| / t_n, dove t_n è lo zero più vicino.
+
+STATISTICHE OSSERVATE
+Media scarti: 0.30761149%
+Mediana scarti: 0.20304080%
+Conteggio Delta < 0.2000%: 7 / 14
+
+P-VALUE
+P(media_MC <= media_osservata): 0.0000000000
+P(mediana_MC <= mediana_osservata): 0.0078500000
+P(conteggio_MC >= conteggio_osservato): 0.0265800000
+
+Z-SCORE
+Z media scarti: -1.057300
+Z mediana scarti: -1.135859
+Z conteggio: -2.328733
+
+SCARTI INDIVIDUALI
+GRS 1915+105                   | Phi=     67.000000 | zero=     67.079811 | Delta=  0.118978%
+GRO J1655-40 (300)             | Phi=    135.000000 | zero=    134.756510 | Delta=  0.180689%
+GRO J1655-40 (451)             | Phi=    202.950000 | zero=    202.493595 | Delta=  0.225393%
+XTE J1550-564 (184)            | Phi=    119.600000 | zero=    118.790783 | Delta=  0.681212%
+XTE J1550-564 (276)            | Phi=    179.400000 | zero=    179.916484 | Delta=  0.287069%
+XTE J1859+226                  | Phi=    126.750000 | zero=    127.516684 | Delta=  0.601242%
+M82 X-1 (3.3)                  | Phi=    100.885714 | zero=    101.317851 | Delta=  0.426516%
+M82 X-1 (5.0)                  | Phi=    152.857143 | zero=    153.024694 | Delta=  0.109493%
+NGC 1313 X-1 (0.30)            | Phi=    107.142857 | zero=    107.168611 | Delta=  0.024031%
+NGC 1313 X-1 (0.45)            | Phi=    160.714286 | zero=    161.188964 | Delta=  0.294486%
+RE J1034+396                   | Phi=     32.542857 | zero=     32.935062 | Delta=  1.190842%
+GW150914                       | Phi=   1169.142857 | zero=   1169.698357 | Delta=  0.047491%
+GW151226                       | Phi=    393.714286 | zero=    393.427744 | Delta=  0.072832%
+GW190521                       | Phi=   1470.285714 | zero=   1470.966589 | Delta=  0.046288%
+
+DATI UTILIZZATI
+Sistemi osservativi: 14 sistemi astrofisici inseriti nel sorgente REAL_DATA.
+Zeri della funzione zeta: zeros_50000.txt
+Il file degli zeri deve essere conservato insieme a questo report per riproducibilità.
+
+GIUDIZIO AUTOMATICO
+La statistica della media risulta significativa a p < 0.01.
