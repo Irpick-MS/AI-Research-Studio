@@ -1,0 +1,4 @@
+dataset,class,n_systems,observed_mean_dev_percent,observed_median_dev_percent,observed_count_below,uniform_log_frequency_p_mean,uniform_log_frequency_success_mean,uniform_log_frequency_p_median,uniform_log_frequency_success_median,uniform_log_frequency_p_count,uniform_log_frequency_success_count,permutation_frequency_mass_p_mean,permutation_frequency_mass_success_mean,permutation_frequency_mass_p_median,permutation_frequency_mass_success_median,permutation_frequency_mass_p_count,permutation_frequency_mass_success_count
+ORO,gw,3,0.05553686028519398,0.04749085426667605,3,0.09132,4566,0.24552,12276,0.17442,8721,0.33652,16826,0.33652,16826,0.33652,16826
+ORO,imbh,4,0.21363141115311804,0.20198921973604736,2,0.03892,1946,0.16242,8121,0.4873,24365,0.16636,8318,0.4982,24910,0.83376,41688
+ORO,stellar,6,0.3490971489628342,0.25623065752098806,2,0.06374,3187,0.20364,10182,0.62418,31209,0.44342,22171,0.54508,27254,0.91612,45806

@@ -1,0 +1,139 @@
+================================================================================
+RHSIC - Monte Carlo Validation V0013b
+================================================================================
+
+Date: 2026-07-01 15:45:45
+
+Reference M0: 14.0
+Threshold: 0.2000%
+
+Main Monte Carlo iterations:        100000
+Leave-one-out iterations:            30000
+Class validation iterations:         50000
+
+GOLD systems:    14
+SILVER systems:  26
+Total systems:   40
+
+--------------------------------------------------------------------------------
+GOLD dataset - Observed statistics
+
+Mean deviation:      0.307611%
+Median deviation:    0.203041%
+Values below threshold: 7 / 14
+
+GOLD p-values
+
+Uniform log-frequency model
+
+P(random mean <= observed mean):       < 1.00e-05
+P(random median <= observed median):    6e-05
+P(random count >= observed count):      0.00046
+
+Permutation frequency-mass model
+
+P(random mean <= observed mean):       < 1.00e-05
+P(random median <= observed median):    0.00785
+P(random count >= observed count):      0.02658
+
+--------------------------------------------------------------------------------
+SILVER dataset - Observed statistics
+
+Mean deviation:      2.814077%
+Median deviation:    0.625847%
+Values below threshold: 7 / 26
+
+SILVER p-values
+
+Uniform log-frequency model
+
+P(random mean <= observed mean):       < 1.00e-05
+P(random median <= observed median):   < 1.00e-05
+P(random count >= observed count):      0.01258
+
+Permutation frequency-mass model
+
+P(random mean <= observed mean):       < 1.00e-05
+P(random median <= observed median):    0.00032
+P(random count >= observed count):      0.14011
+
+--------------------------------------------------------------------------------
+Methodological note
+
+The reported p-values are valid only with respect to the implemented null models.
+
+Whenever no Monte Carlo realization reaches the observed statistic,
+the corresponding probability is reported as an upper bound:
+
+    p < 1/N
+
+where N is the number of Monte Carlo iterations.
+
+This statistical framework does not constitute a proof of the underlying
+scientific hypothesis.
+
+The GOLD/SILVER labels represent an operational dataset classification only
+and should not be interpreted as evidence of physical significance.
+
+The M0 scan is provided as an independent exploratory analysis and is not
+part of the primary validation performed at M0 = 14.
+
+
+
+
+================================================================================
+RHSIC - Monte Carlo V0013b
+================================================================================
+
+Data: 2026-07-01 15:45:45
+M0: 14.0
+Soglia: 0.2000%
+Iterazioni main: 100000
+Iterazioni leave-one-out: 30000
+Iterazioni classi: 50000
+Sistemi ORO: 14
+Sistemi ARGENTO: 26
+Sistemi TOTALI: 40
+
+--------------------------------------------------------------------------------
+ORO - Statistiche osservate:
+  Media scarti:   0.307611%
+  Mediana scarti: 0.203041%
+  Count sotto soglia: 7 / 14
+
+  p-value ORO:
+
+    Test: uniform_log_frequency
+      P(media_random <= media_obs):     < 1.00e-05  successi=0
+      P(mediana_random <= mediana_obs): 6e-05  successi=6
+      P(count_random >= count_obs):     0.00046  successi=46
+
+    Test: permutation_frequency_mass
+      P(media_random <= media_obs):     < 1.00e-05  successi=0
+      P(mediana_random <= mediana_obs): 0.00785  successi=785
+      P(count_random >= count_obs):     0.02658  successi=2658
+
+--------------------------------------------------------------------------------
+ARGENTO - Statistiche osservate:
+  Media scarti:   2.814077%
+  Mediana scarti: 0.625847%
+  Count sotto soglia: 7 / 26
+
+  p-value ARGENTO:
+
+    Test: uniform_log_frequency
+      P(media_random <= media_obs):     < 1.00e-05  successi=0
+      P(mediana_random <= mediana_obs): < 1.00e-05  successi=0
+      P(count_random >= count_obs):     0.01258  successi=1258
+
+    Test: permutation_frequency_mass
+      P(media_random <= media_obs):     < 1.00e-05  successi=0
+      P(mediana_random <= mediana_obs): 0.00032  successi=32
+      P(count_random >= count_obs):     0.14011  successi=14011
+
+Nota metodologica:
+  I p-value valgono solo rispetto ai modelli nulli implementati.
+  Un p-value pari a zero in simulazione viene riportato come limite superiore p < 1/N.
+  Il test non costituisce una dimostrazione della congettura.
+  La denominazione ORO/ARGENTO è una classificazione operativa del dataset, non una prova fisica.
+  Lo scan M0 è da intendersi come controllo esplorativo separato dal test principale con M0=14.

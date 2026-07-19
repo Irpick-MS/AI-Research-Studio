@@ -1,0 +1,5 @@
+dataset,class,n_systems,observed_mean_dev_percent,observed_median_dev_percent,observed_count_below,uniform_log_frequency_p_mean,uniform_log_frequency_success_mean,uniform_log_frequency_p_median,uniform_log_frequency_success_median,uniform_log_frequency_p_count,uniform_log_frequency_success_count,permutation_frequency_mass_p_mean,permutation_frequency_mass_success_mean,permutation_frequency_mass_p_median,permutation_frequency_mass_success_median,permutation_frequency_mass_p_count,permutation_frequency_mass_success_count
+ARGENTO,agn,4,11.121883289932542,4.898039218806445,0,0.40136,20068,0.4215,21075,1,50000,0.66776,33388,0.41722,20861,1,50000
+ARGENTO,gw,6,0.1075398910218328,0.034516357622811945,4,0.32478,16239,0.12066,6033,0.9228,46140,0.32666,16333,0.14948,7474,0.96734,48367
+ARGENTO,imbh,6,3.06780418053573,2.933183473334127,1,0.3685,18425,0.88068,44034,0.96104,48052,0.0862,4310,0.58342,29171,0.93076,46538
+ARGENTO,stellar,10,0.9626404891784348,0.625847166289667,2,0.41788,20894,0.56246,28123,0.68782,34391,0.88466,44233,0.47708,23854,0.7779,38895
